@@ -1,0 +1,28 @@
+# Local Spotify credentials, OAuth tokens, and device configuration
+.env
+.env.*
+!.env.example
+.spotify_token.json
+config.h
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Firmware build output
+.pio/
+build/
+*.bin
+*.elf
+
+# Codex conversation attachments are local inputs, not project assets
+.codex-remote-attachments/

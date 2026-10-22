@@ -1,0 +1,6 @@
+// Copy this file to config.h and fill in your Wi-Fi and Spotify credentials.
+const char *WIFI_SSID = "your-wifi-name";
+const char *WIFI_PASSWORD = "your-wifi-password";
+const char *SPOTIFY_CLIENT_ID = "your-client-id";
+const char *SPOTIFY_CLIENT_SECRET = "your-client-secret";
+const char *SPOTIFY_REFRESH_TOKEN = "your-refresh-token";
